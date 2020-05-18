@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Телеграммы - Официальный сайт - ПРЕЗИДЕНТА РЕСПУБЛИКИ ТАДЖИКИСТАН</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
   <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="libs/news-slider/css/slider-pro.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="telegrammi">
-  <!-- Header -->
+  <!-- Wrapper -->
+  <div id="wrapper" class="boxed container">
+    <!-- Header -->
   <header class="header-site">
     <div class="top-line container-fluid">        
       <div class="row">
@@ -58,47 +62,47 @@
         </div>
       </div>
     </div>
-    <!-- Main-menu -->
-    <div class="main-menu">
-      <nav class="navbar navbar-default">
-          <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <!-- <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span> -->
-                      <span>Menu</span>
-                  </button>
-              </div>
-
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                      <li><a href="index.html" class="active">Главная<span class="sr-only">(current)</span></a></li>
-                      <li><a href="vstrechi.html">Встречи</a></li>
-                      <li><a href="vistuplenie.html">Выступления</a></li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Поездки <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="poezdki.html">Поездки</a></li>
-                          <li><a href="viziti.html">Визиты</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="ukazi.html">Указы</a></li>
-                      <li><a href="poslaniya.html">Послания</a></li>
-                      <li><a href="telegrammi.html">Телеграммы</a></li>
-                      <li><a href="telephone.html">Телефонные разговоры</a></li>
-                      <li><a href="photos.html">Фотографии</a></li>
-                  </ul>
-              </div><!-- /.navbar-collapse -->
-          </div><!-- /.container -->
-      </nav> 
-    </div>
-    <!-- End Main-menu -->
   </header>  
   <!-- End Header -->
+  <!-- Main-menu -->
+  <div class="main-menu">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <!-- <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> -->
+                    <span>Menu</span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Главная<span class="sr-only">(current)</span></a></li>
+                    <li><a href="vstrechi.html">Встречи</a></li>
+                    <li><a href="vistuplenie.html">Выступления</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Поездки <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="poezdki.html">Поездки</a></li>
+                        <li><a href="viziti.html">Визиты</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="ukazi.html">Указы</a></li>
+                    <li><a href="poslaniya.html">Послания</a></li>
+                    <li><a href="telegrammi.html" class="active">Телеграммы</a></li>
+                    <li><a href="telephone.html">Телефонные разговоры</a></li>
+                    <li><a href="photos.html">Фотографии</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav> 
+  </div>
+  <!-- End Main-menu -->
   <!-- Content-Aside -->
   <section class="content-aside">
     <div class="container">
@@ -107,7 +111,7 @@
           <article class="main-post">
               <div class="post-content">
                   <div class="post-pic col-md-4">
-                    <a href="">
+                    <a href="telegramma-page.html">
                       <img src="img/gerb.png" alt="Pic">
                     </a>
                   </div>
@@ -116,7 +120,7 @@
                   </div>
                   <div class="post-text col-md-8">
                     <h2>
-                      <a href="">Телеграмма соболезнования Президенту Республики Казахстан Касым-Жомарту Токаеву</a>
+                      <a href="telegramma-page.html">Телеграмма соболезнования Президенту Республики Казахстан Касым-Жомарту Токаеву</a>
                     </h2>
                     <p>Сегодня Основатель мира и национального единства – Лидер нации, Президент Республики Таджикистан уважаемый Эмомали Рахмон направил телеграмму соболезнования Президенту </p>
                   </div>
@@ -168,6 +172,9 @@
     </div>
   </footer>
   <!-- End Footer -->
+  </div>
+  <!-- End Wrapper -->
+  
 
   <script src="libs/jquery.min.js"></script>
   <script src="libs/bootstrap/js/bootstrap.min.js"></script>
